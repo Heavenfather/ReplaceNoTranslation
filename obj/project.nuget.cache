@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3CMoA1s3Hf4ZzDNjc5cTPwzyqzRbzq2XCKNhft5zpI4kKE2obtRyOAa+QIT0W6fybh3hc4FaOBJdjotdOSU07A==",
+  "success": true,
+  "projectFilePath": "E:\\Project\\ReplaceNoTranslation\\ReplaceNoTranslation\\ReplaceNoTranslation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\exceldatareader\\3.6.0\\exceldatareader.3.6.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\exceldatareader.dataset\\3.6.0\\exceldatareader.dataset.3.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

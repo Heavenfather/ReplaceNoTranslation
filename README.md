@@ -1,0 +1,2 @@
+# ReplaceNoTranslation
+ 替换翻译完的文本回去配置中，与FindNoTranslation配合使用
