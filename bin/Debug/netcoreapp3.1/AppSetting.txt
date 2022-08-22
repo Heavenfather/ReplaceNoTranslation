@@ -1,0 +1,4 @@
+//参数解释：1.fileType = excel 替换的目标文件类型,目前支持txt、excel、csv  
+//			2.path = E:\Project\Excel 替换的文件所处目录 翻译好的文件也需要放在这里
+1.fileType=csv
+2.path=E:\Project\Excel

@@ -2,78 +2,44 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "ExcelDataReader/3.6.0": {
+      "IronXL.Excel/2022.7.7362": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/ExcelDataReader.dll": {}
+          "lib/netstandard2.0/IronXL.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/ExcelDataReader.dll": {}
-        }
-      },
-      "ExcelDataReader.DataSet/3.6.0": {
-        "type": "package",
-        "dependencies": {
-          "ExcelDataReader": "3.6.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ExcelDataReader.DataSet.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ExcelDataReader.DataSet.dll": {}
+          "lib/netstandard2.0/IronXL.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "ExcelDataReader/3.6.0": {
-      "sha512": "eXyxTwG7EEWpgQX3juZ2KcndqTqm/ydx9GXS2lUiMJU54U4h5eXdygRtVgINv0t60ezPWEb+lL7uM7Q+wm5BBA==",
+    "IronXL.Excel/2022.7.7362": {
+      "sha512": "4TVRKjAnj0Xc5OOTnseaZj6LurBGkGEfEP949Pyk6pYapXU3UK+x2+SNEsN9Z0O7ocY2Pu50nFnTlAzQgV6rQA==",
       "type": "package",
-      "path": "exceldatareader/3.6.0",
+      "path": "ironxl.excel/2022.7.7362",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "exceldatareader.3.6.0.nupkg.sha512",
-        "exceldatareader.nuspec",
-        "lib/net20/ExcelDataReader.dll",
-        "lib/net20/ExcelDataReader.pdb",
-        "lib/net20/ExcelDataReader.xml",
-        "lib/net45/ExcelDataReader.dll",
-        "lib/net45/ExcelDataReader.pdb",
-        "lib/net45/ExcelDataReader.xml",
-        "lib/netstandard1.3/ExcelDataReader.dll",
-        "lib/netstandard1.3/ExcelDataReader.pdb",
-        "lib/netstandard1.3/ExcelDataReader.xml",
-        "lib/netstandard2.0/ExcelDataReader.dll",
-        "lib/netstandard2.0/ExcelDataReader.pdb",
-        "lib/netstandard2.0/ExcelDataReader.xml"
-      ]
-    },
-    "ExcelDataReader.DataSet/3.6.0": {
-      "sha512": "miW3sWmPXnLM38YadRIfnhL4W4QZajpS6Q/OqsOpFJU5ct8h+M/fMpbGMm5INtsMP0Y1k0WK0stIfSW3RP31Xg==",
-      "type": "package",
-      "path": "exceldatareader.dataset/3.6.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "exceldatareader.dataset.3.6.0.nupkg.sha512",
-        "exceldatareader.dataset.nuspec",
-        "lib/net20/ExcelDataReader.DataSet.dll",
-        "lib/net20/ExcelDataReader.DataSet.pdb",
-        "lib/net20/ExcelDataReader.DataSet.xml",
-        "lib/net35/ExcelDataReader.DataSet.dll",
-        "lib/net35/ExcelDataReader.DataSet.pdb",
-        "lib/net35/ExcelDataReader.DataSet.xml",
-        "lib/netstandard2.0/ExcelDataReader.DataSet.dll",
-        "lib/netstandard2.0/ExcelDataReader.DataSet.pdb",
-        "lib/netstandard2.0/ExcelDataReader.DataSet.xml"
+        "EULA.txt",
+        "docs/README.md",
+        "images/iron-logo-128.png",
+        "ironxl.excel.2022.7.7362.nupkg.sha512",
+        "ironxl.excel.nuspec",
+        "lib/net45/IronXL.dll",
+        "lib/net45/IronXL.dll.config",
+        "lib/net45/IronXL.xml",
+        "lib/netstandard2.0/IronXL.dll",
+        "lib/netstandard2.0/IronXL.dll.config",
+        "lib/netstandard2.0/IronXL.xml",
+        "readme-setup.txt",
+        "readme.txt"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "ExcelDataReader >= 3.6.0",
-      "ExcelDataReader.DataSet >= 3.6.0"
+      "IronXL.Excel >= 2022.7.7362"
     ]
   },
   "packageFolders": {
@@ -120,13 +86,9 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
-          "ExcelDataReader": {
+          "IronXL.Excel": {
             "target": "Package",
-            "version": "[3.6.0, )"
-          },
-          "ExcelDataReader.DataSet": {
-            "target": "Package",
-            "version": "[3.6.0, )"
+            "version": "[2022.7.7362, )"
           }
         },
         "imports": [

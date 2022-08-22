@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FindNoTranslation
+namespace ReplaceNoTranslation
 {
     public static class Logger
     {
@@ -42,6 +42,21 @@ namespace FindNoTranslation
                 case LogEnum.ErrorCatch:
                     content = "\n程序已出错!!!按任意键退出!";
                     break;
+                case LogEnum.PressAnyKey:
+                    content = "\n按任意键退出";
+                    break;
+                case LogEnum.HandleFile:
+                    content = "正在处理文件:{0}";
+                    break;
+                case LogEnum.NoneNoTranFile:
+                    content = Setting.GetFileDirectorPath() + "不存在" + Setting.DEFAULT_FIND_NAME + "文件";
+                    break;
+                case LogEnum.ReplaceEnum:
+                    content = "替换文件类型:{0}";
+                    break;
+                case LogEnum.ReadingFile:
+                    content = "正在处理文件:{0}";
+                    break;
             }
             return content;
         }
@@ -53,5 +68,10 @@ namespace FindNoTranslation
         ErrorCatch,
         StartReadConfig,
         EndReadConfig,
+        PressAnyKey,
+        HandleFile,
+        NoneNoTranFile,
+        ReplaceEnum,
+        ReadingFile,
     }
 }
